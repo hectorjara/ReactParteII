@@ -1,8 +1,10 @@
-function Cards({arrJuegos, handleClick}) {
+function Cards({arrJuegos, arrJuegosFiltrados, handleClick}) {
+    let juegos = arrJuegos;
+    if (arrJuegosFiltrados.length !== 0){juegos = arrJuegosFiltrados};
 
     return (
         <ul>
-            {arrJuegos.map(juego =>{
+            {juegos.map(juego =>{
                 return(
                     <li key={juego.id}>
                         <h1 onClick={()=>handleClick(juego.id)}>{juego.titulo}</h1>
