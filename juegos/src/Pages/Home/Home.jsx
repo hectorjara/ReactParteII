@@ -14,7 +14,7 @@ function Home() {
     };
 
     function handleClick(id){
-        navegar(ROUTES.detalles.slice(0,-3)+id); //Esto solo quita ":id"  de "detalles:id" y añade el id
+        navegar(ROUTES.detalles.slice(0,-3)+id); //Esto solo quita ":id"  de "/detalles/:id" y añade el id
     };
 
     useEffect(() => {
