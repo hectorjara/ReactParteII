@@ -1,0 +1,38 @@
+[
+    {
+        "id":"1",
+        "titulo":"QuackShot",
+        "descripcion":"QuackShot es un videojuego de plataformas desarrollado y publicado por Sega para la Sega Genesis",
+        "imagenCaratula":"https://upload.wikimedia.org/wikipedia/en/e/e0/QuackShot_-_Starring_Donald_Duck.jpg"
+    },
+    {
+        "id":"2",
+        "titulo":"Sonic",
+        "descripcion":"Sonic es un Videojuego de plataformas desarrollado por Sonic Team y publicado por Sega para la Sega Genesis en 1991",
+        "imagenCaratula":"https://upload.wikimedia.org/wikipedia/en/b/ba/Sonic_the_Hedgehog_1_Genesis_box_art.jpg"
+    },
+    {
+        "id":"3",
+        "titulo":"Ecco the Dolphin",
+        "descripcion":"Ecco the Dolphin es un videojuego de acción-aventura desarrollado por Novotrade International, originalmente para Sega Genesis, y publicado por Sega en 1992",
+        "imagenCaratula":"https://upload.wikimedia.org/wikipedia/en/c/c8/Ecco-cover.jpg"
+    },
+    {
+        "id":"4",
+        "titulo":"Disney's Aladdin",
+        "descripcion":"Disney's Aladdin es un videojuego de plataformas basado en la película de 1992 del mismo nombre desarrollada por Virgin Games USA",
+        "imagenCaratula":"https://upload.wikimedia.org/wikipedia/en/0/0d/Aladdingenesis.jpg"
+    },
+    {
+        "id":"5",
+        "titulo":"Cool Spot",
+        "descripcion":"Cool Spot es un videojuego de plataformas de 1993 desarrollado por Virgin Games y publicado por Virgin Interactive para Mega Drive/Genesis y SNES/Super Famicom",
+        "imagenCaratula":"https://upload.wikimedia.org/wikipedia/en/e/ec/Cool_spot_box_art.jpg"
+    },
+    {
+        "id":"6",
+        "titulo":"The Lion King",
+        "descripcion":"The Lion King es un videojuego de plataformas con vista lateral lanzado en 1994 para Sega Genesis y Super Nintendo",
+        "imagenCaratula":"https://upload.wikimedia.org/wikipedia/en/1/16/The_Lion_King_Coverart.png"
+    }
+]
