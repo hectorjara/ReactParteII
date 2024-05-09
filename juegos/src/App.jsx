@@ -1,14 +1,15 @@
-import Detalles from "./Pages/Detalles/Detalles";
 import Home from "./Pages/Home/Home";
+import Detalles from "./Pages/Detalles/Detalles";
 import {createBrowserRouter, RouterProvider,} from "react-router-dom";
+import { ROUTES } from "./Const/routes";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: ROUTES.home,
     element: <Home />,
   },
   {
-    path: "/detalles",
+    path: ROUTES.detalles,
     element: <Detalles />,
   },
 ]);
