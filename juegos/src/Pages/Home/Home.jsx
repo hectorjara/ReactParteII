@@ -8,6 +8,7 @@ import Buscador from "../../Components/Buscador/Buscador";
 function Home() {
     const [juegos, setJuegos] = useState([]);
     const [juegosFitrados, setJuegosFiltrados] = useState([]);
+    const [juegoEncontrado, setJuegoEncontrado] =useState("NoBuscado");
     const navegar = useNavigate();
 
     const fetchJuegos = async () =>{
@@ -21,9 +22,20 @@ function Home() {
     };
 
     function buscarJuego(valor){
-        if (valor === ""){setJuegosFiltrados([])};
-        const juegosEncontrados = juegos.filter(juego =>juego.titulo.toLocaleLowerCase().includes(valor.toLowerCase()));
-        setJuegosFiltrados(juegosEncontrados);
+        if (valor === ""){
+            setJuegosFiltrados([]);
+            setJuegoEncontrado("NoBuscado")}
+        else{
+            const juegosEncontrados = juegos.filter(juego =>juego.titulo.toLocaleLowerCase().includes(valor.toLowerCase()));
+            if (juegosEncontrados.length !== 0){
+                setJuegoEncontrado("Encontrado");
+                setJuegosFiltrados(juegosEncontrados);
+            }else{
+                setJuegoEncontrado("NoEncontrado");
+            }
+        }
+        
+        
     };
 
     useEffect(() => {
@@ -34,7 +46,7 @@ function Home() {
     return (
         <div className="Home bg-yellow-500">
         <Header/>
-        <Buscador buscarJuego={buscarJuego} />
+        <Buscador juegoEncontrado={juegoEncontrado} buscarJuego={buscarJuego} />
         <Cards arrJuegos={juegos} arrJuegosFiltrados={juegosFitrados} handleClick={irDetalleJuego} />
         <Footer/>
         </div>

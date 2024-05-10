@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function Buscador({buscarJuego}){
+export default function Buscador({juegoEncontrado, buscarJuego}){
     const [valorinput, setValorInput] = useState("");
 
     function cambiaValorYBuscaJuego(valor){
@@ -19,6 +19,7 @@ export default function Buscador({buscarJuego}){
             onChange ={e => cambiaValorYBuscaJuego(e.target.value)}
             onClick={handleClick} >
         </input>
+        {juegoEncontrado === "NoEncontrado" && <h2 className="font-retro text-red-500">Juego no Encontrado</h2>}
         </div>        
     )
 }
