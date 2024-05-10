@@ -7,7 +7,7 @@ function Cards({arrJuegos, arrJuegosFiltrados, handleClick}) {
             {juegos.map(juego =>{
                 return(
                     <div className="w-1/3 p-4" key={juego.id}>
-                        <div onClick={()=>handleClick(juego.id)} class="bg-yellow-200 rounded shadow w-96 h-128 p-4 border-2 border-black">
+                        <div onClick={()=>handleClick(juego.id)} class="bg-yellow-200 rounded shadow w-96 h-128 p-4 border-2 border-black hover:bg-yellow-600">
                             <h1 className="font-retro">{juego.titulo}</h1>
                             <img class="w-full h-96 object-cover" src={juego.imagenCaratula} alt={juego.titulo}></img>
                             <h2 className="font-retro">{juego.descripcion}</h2>
