@@ -29,3 +29,10 @@ Este proyecto usa useNavigate para navegar entre las paginas Home y Detalles:
 Y hace uso de useParams de react-router-dom para obtener el id del juego pasado en la ruta
 
 ![image](https://github.com/hectorjara/ReactParteII/assets/27976811/a30f7605-a9fb-4d72-8424-ba30ca827c96)
+
+Probar buscar un juego para ver como cambian los resultados:
+
+![image](https://github.com/hectorjara/ReactParteII/assets/27976811/301d047d-7ae7-4ab0-a069-bda334263f40)
+
+![image](https://github.com/hectorjara/ReactParteII/assets/27976811/e61000b4-f1bb-4423-9994-37df53df1c59)
+
