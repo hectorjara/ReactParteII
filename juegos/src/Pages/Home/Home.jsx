@@ -32,7 +32,7 @@ function Home() {
     []);
 
     return (
-        <div className="Home">
+        <div className="Home bg-yellow-500">
         <Header/>
         <Buscador buscarJuego={buscarJuego} />
         <Cards arrJuegos={juegos} arrJuegosFiltrados={juegosFitrados} handleClick={irDetalleJuego} />

@@ -18,7 +18,7 @@ function Detalles() {
     );
 
   return (
-    <div className="Detalles">
+    <div className="Detalles bg-yellow-500">
       <Header/>
       <CardDetail unJuego={juego}/>
       <Footer/>

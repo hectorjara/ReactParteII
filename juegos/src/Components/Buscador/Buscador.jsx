@@ -13,12 +13,12 @@ export default function Buscador({buscarJuego}){
     }
 
     return (
-        <>
-                <input placeholder="Buscar Juego" type="text"
+        
+                <input className="font-retro bg-yellow-200  border-2 border-black text-center p-3 mt-3" placeholder="Buscar Juego" type="text"
                     value = {valorinput}
                     onChange ={e => cambiaValorYBuscaJuego(e.target.value)}
                     onClick={handleClick} >
                 </input>
-        </>
+        
     )
 }
