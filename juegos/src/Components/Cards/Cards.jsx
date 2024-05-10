@@ -3,14 +3,17 @@ function Cards({arrJuegos, arrJuegosFiltrados, handleClick}) {
     if (arrJuegosFiltrados.length !== 0){juegos = arrJuegosFiltrados};
 
     return (
-        <ul>
+        <div className="flex flex-wrap justify-center">
             {juegos.map(juego =>{
                 return(
-                    <li key={juego.id}>
-                        <h1 onClick={()=>handleClick(juego.id)}>{juego.titulo}</h1>
-                    </li>)
+                    <div className="w-1/3 p-4" key={juego.id}>
+                        <div onClick={()=>handleClick(juego.id)} class="bg-white rounded shadow p-6">
+                            <h1>{juego.titulo}</h1>
+                            <img class="w-full h-32 object-cover" src={juego.imagenCaratula} alt={juego.titulo}></img>
+                        </div>
+                    </div>)
             })}
-        </ul>
+        </div>
     );
   }
   
