@@ -1,0 +1,9 @@
+{
+    "id":"1",
+    "titulo":"Sonic",
+    "descripcion":"Sonic the Hedgehog es un videojuego de plataformas desarrollado por Sonic Team y publicado por Sega para la consola de videojuegos doméstica Sega Mega Drive/Genesis en 1991. Es el primer juego de la franquicia Sonic the Hedgehog y el debut del personaje del mismo nombre; se lanzó en Norteamérica en junio de 1991 y en Europa y Japón el mes siguiente. El título presenta a Sonic the Hedgehog, que puede correr a velocidades supersónicas y emprende una búsqueda para derrotar al Dr. Robotnik, un científico que ha encerrado animales en robots y busca las poderosas Chaos Emeralds. El modo inicial implica recolectar anillos como una forma de salud y un esquema de control simple, con saltos y ataques controlados por un solo botón",
+    "imagenCaratula":"https://upload.wikimedia.org/wikipedia/en/b/ba/Sonic_the_Hedgehog_1_Genesis_box_art.jpg",
+    "imagenes":["https://upload.wikimedia.org/wikipedia/en/d/d3/MD_Sonic_the_Hedgehog.png",
+                "https://upload.wikimedia.org/wikipedia/en/c/c1/SonicTheHedgehog1.png"],
+    "genero":"Plataformas"
+}

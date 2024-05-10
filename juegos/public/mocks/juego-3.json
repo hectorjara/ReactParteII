@@ -1,9 +1,9 @@
 {
     "id":"1",
-    "titulo":"QuackShot",
+    "titulo":"Ecco the Dolphin",
     "descripcion":"QuackShot Starring Donald Duck (o simplemente QuackShot), conocido en Japón como QuackShot Gurujia-ō no Hihō (QuackShot グルジア王の秘宝 QuackShot The Treasure of the King Garuzia?), es un videojuego de plataformas desarrollado y publicado por Sega para la Sega Genesis. Se lanzó en Europa en diciembre de 1991, en Norteamérica el 19 de diciembre de 1991 y en Japón al día siguiente. El juego está protagonizado por el Pato Donald y sus tres sobrinos, Huey, Dewey y Louie, como buscadores de tesoros.",
-    "imagenCaratula":"https://upload.wikimedia.org/wikipedia/en/e/e0/QuackShot_-_Starring_Donald_Duck.jpg",
-    "imagenes":["https://upload.wikimedia.org/wikipedia/en/e/e0/QuackShot_-_Starring_Donald_Duck.jpg",
-                "https://upload.wikimedia.org/wikipedia/en/0/07/QuackShot_-_Starring_Donald_Duck_Mexico_platforming.jpg"],
-    "genero":"Plataformas"
+    "imagenCaratula":"https://upload.wikimedia.org/wikipedia/en/c/c8/Ecco-cover.jpg",
+    "imagenes":["https://upload.wikimedia.org/wikipedia/ru/7/75/Ecco1_1.JPG",
+                "https://upload.wikimedia.org/wikipedia/it/a/ac/Ecco_the_Dolphin.png"],
+    "genero":"Acción y Aventura"
 }

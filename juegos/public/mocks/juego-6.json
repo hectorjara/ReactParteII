@@ -1,0 +1,9 @@
+{
+    "id":"1",
+    "titulo":"The Lion King",
+    "descripcion":"The Lion King es un videojuego de plataformas con vista lateral lanzado en 1994 para Sega Genesis y Super Nintendo, con posteriores conversiones a numerosos sistemas incluyendo a Windows, Amiga, Game Boy, NES y Master System. El juego es la adaptación oficial de la película homónima de Disney, estrenada con gran éxito en ese mismo año y es por tanto el sucesor espiritual del juego Disney's Aladdin. El juego permite controlar al pequeño león Simba, quien a cabo de varios escenarios se convierte en un poderoso león adulto.",
+    "imagenCaratula":"https://upload.wikimedia.org/wikipedia/en/1/16/The_Lion_King_Coverart.png",
+    "imagenes":["https://segaretro.org/images/f/f2/TheLionKing_MD_ThePridelands.png",
+                "https://segaretro.org/images/7/76/TheLionKing_MD_HakunaMatata.png"],
+    "genero":"Acción"
+}

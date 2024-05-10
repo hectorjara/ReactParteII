@@ -1,0 +1,9 @@
+{
+    "id":"1",
+    "titulo":"Cool Spot",
+    "descripcion":"Cool Spot es un videojuego de plataformas de 1993 desarrollado por Virgin Games y publicado por Virgin Interactive para Mega Drive/Genesis y SNES/Super Famicom. El videojuego más tarde fue llevado a otros sistemas en 1994, como a Sega Master System/Mark III, Sega Game Gear, Game Boy, Commodore Amiga y DOS. El personaje principal es Cool Spot, una mascota para la marca de gaseosa 7 Up, excepto en la versión europea que la botella de 7 Up fue reemplazado por una genérica de color similar.",
+    "imagenCaratula":"https://upload.wikimedia.org/wikipedia/en/e/ec/Cool_spot_box_art.jpg",
+    "imagenes":["https://upload.wikimedia.org/wikipedia/en/0/0d/Cool_Spot.png",
+                "https://segaretro.org/images/e/e5/Cool_Spot_Title.png"],
+    "genero":"Plataformas"
+}

@@ -1,0 +1,9 @@
+{
+    "id":"1",
+    "titulo":"Disney's Aladdin",
+    "descripcion":"Disney's Aladdin es un videojuego de plataformas basado en la película de 1992 del mismo nombre desarrollada por Virgin Games USA. El juego fue lanzado por Sega para Sega Genesis el 11 de noviembre de 1993 como uno de varios juegos basados en la película, incluido otro juego que fue lanzado en el mismo mes por Capcom para Super NES.",
+    "imagenCaratula":"https://upload.wikimedia.org/wikipedia/en/0/0d/Aladdingenesis.jpg",
+    "imagenes":["https://gamefaqs.gamespot.com/a/screen/full/4/3/9/160439.jpg",
+                "https://gamefaqs.gamespot.com/a/screen/full/4/5/0/160450.jpg"],
+    "genero":"Plataformas"
+}

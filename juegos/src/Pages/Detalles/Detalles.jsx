@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import Footer from "../../Components/Footer/Footer";
 import Header from "../../Components/Header/Header";
+import CardDetail from "../../Components/CardDetail/CardDetail";
 function Detalles() {
     const params = useParams();
     const [juego, setJuego] = useState("");
@@ -19,8 +20,7 @@ function Detalles() {
   return (
     <div className="Detalles">
       <Header/>
-      <h1>Detalles</h1><br/>
-      <h2>El juego es {juego.titulo}</h2>
+      <CardDetail unJuego={juego}/>
       <Footer/>
     </div>
   );
