@@ -8,7 +8,7 @@ function CardDetail({unJuego}) {
                     <h1 className="font-retro">Genero: {unJuego.genero}</h1>
                     <img class="w-64 h-96 object-cover" src={unJuego.imagenCaratula} alt={unJuego.titulo}></img>
                     <h2 className="font-retro">{unJuego.descripcion}</h2>
-                    {unJuego && unJuego.imagenes ? unJuego.imagenes.map(imag => {
+                    {unJuego.imagenes ? unJuego.imagenes.map(imag => {
                         return <img class="w64 h-64 object-cover" src={imag} alt={unJuego.titulo}></img>
                     }) : 'Cargando...'}
                 </div>
