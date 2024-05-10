@@ -12,7 +12,7 @@ function Header() {
       <div className="Header">
         <header>
           <nav className="bg-yellow-700 p-4">
-          <h1 className="text-lime-600" onClick={handleClick}>Juegos 16 Bits</h1>
+          <h1 className="font-retro" onClick={handleClick}>Juegos 16 Bits</h1>
           </nav>
         </header>        
       </div>

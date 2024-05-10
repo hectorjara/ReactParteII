@@ -8,7 +8,7 @@ function Cards({arrJuegos, arrJuegosFiltrados, handleClick}) {
                 return(
                     <div className="w-1/3 p-4" key={juego.id}>
                         <div onClick={()=>handleClick(juego.id)} class="bg-white rounded shadow p-6">
-                            <h1>{juego.titulo}</h1>
+                            <h1 className="font-retro">{juego.titulo}</h1>
                             <img class="w-full h-32 object-cover" src={juego.imagenCaratula} alt={juego.titulo}></img>
                         </div>
                     </div>)
